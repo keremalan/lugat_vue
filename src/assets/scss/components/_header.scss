@@ -1,0 +1,33 @@
+header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 540px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+    li {
+        a {
+            color: black;
+            margin: 0 12px;
+
+            &:hover {
+                padding-bottom: 4px;
+                border-bottom: 3px solid black;
+                transition: all 120ms;
+            }
+        }
+    }
+}
+
+.user-action {
+    img {
+        width: 16px;
+    }
+}

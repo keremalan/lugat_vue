@@ -1,0 +1,20 @@
+:root {
+    --defaultColor: #FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--defaultColor);
+}
+
+a {
+    text-decoration: none;
+    color: var(--defaultColor);
+}
