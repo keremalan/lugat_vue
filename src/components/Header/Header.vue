@@ -11,16 +11,19 @@
             </ul>
         </nav>
         <div class="user-action">
-            <img src="../../../public/hamburger-icon.svg" alt="">
+            <Sidebar/>
         </div>
     </header>
 </template>
-<script>import { defineComponent } from "vue";
+<script>
+import { defineComponent } from "vue";
+import NavLink from '../Header/NavLink.vue';
+import Sidebar from '../Sidebar/Sidebar.vue';
 
 export default defineComponent({
     name: 'Header',
     components: {
-
+        NavLink, Sidebar
     },
     setup() {
 
